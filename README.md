@@ -16,3 +16,6 @@ Recipe app API source code
 ### run an migration in a app
     ```docker-compose run app sh -c "python manage.py makemigrations core"```
     N.B. It is better to add app name of which the migration belongs to
+    
+### create a super user
+    ```docker-compose run app sh -c "python manage.py createsuperuser"```
